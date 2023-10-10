@@ -43,7 +43,7 @@ public String toString() {
 		alfabeto += Alfabeto.letras[i] + ", ";
 	}
 	else {
-		alfabeto += Alfabeto.letras[i] + ", ";
+		alfabeto += Alfabeto.letras[i];
 	}
 }
 	return alfabeto;

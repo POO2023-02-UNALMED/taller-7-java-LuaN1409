@@ -74,7 +74,7 @@ public String toString() {
 	valores += super.getAutor() + "\n";
 	valores += super.getPaginas() + "\n";
 	valores += this.getIdea() + "\n";
-	valores += this.getArgumentos() + "\n";
+	valores += Tesis.argumentos.length + "\n";
 	valores += this.getConclusion() + "\n";
 	valores += this.getReferencias();
 	return valores;
